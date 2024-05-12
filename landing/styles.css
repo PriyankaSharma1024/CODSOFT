@@ -1,1 +1,137 @@
 
+body, h1, h2, h3, h4, h5, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #948282; 
+  color: #333; 
+}
+
+header {
+  background-color: #2ecc71; 
+  color: #0c0b0b;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #191818;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #11fdba;
+}
+
+section {
+  padding: 100px 20px;
+}
+
+.hero {
+  background: linear-gradient(to right, #95b766, #554022);  
+  background-image: url('Coding_girl.jpg');
+  text-align: center;
+  color: #fff; 
+  padding: 100px;
+  box-shadow: 0 4px 6px rgba(123, 84, 84, 0.1);
+}
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  background-color: #2ecc71; 
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #3498db; 
+  color: #fff;
+}
+
+.benefits {
+  background: linear-gradient(to right, #f09819, #ffba57); 
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff; 
+}
+
+.benefit {
+  margin-bottom: 60px;
+}
+
+.benefit h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.benefit p {
+  font-size: 18px;
+}
+
+.testimonials {
+  background: linear-gradient(to right, #95b766, #554022); 
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff; /* White text for contrast */
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.faq {
+  background: linear-gradient(to right, #778465, #e3e1de);  
+  padding: 100px 20px;
+}
+
+.question {
+  margin-bottom: 40px;
+}
+
+.question h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
