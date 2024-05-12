@@ -25,4 +25,4 @@ Don't just take our word for it! Here's what some of our users have to say about
 
 ## Feedback and Contributions
 
-We value feedback from our users and are continuously working to improve our platform. If you ha
+We value feedback from our users and are continuously working to improve.
